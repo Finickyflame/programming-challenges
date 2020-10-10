@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Challenge-01", "Challenge-01", "{DA3F0A3F-5DF0-461B-BC01-8CC01E3F503A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NameGenerator", "Challenge-01\NameGenerator\NameGenerator.csproj", "{0EC22405-D386-4D93-83CF-21F2B733F654}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NameGenerator.Tests", "Challenge-01\NameGenerator.Tests\NameGenerator.Tests.csproj", "{5F78BD4D-3540-4F27-B741-0044DD8F2225}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EC22405-D386-4D93-83CF-21F2B733F654}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EC22405-D386-4D93-83CF-21F2B733F654}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EC22405-D386-4D93-83CF-21F2B733F654}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EC22405-D386-4D93-83CF-21F2B733F654}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F78BD4D-3540-4F27-B741-0044DD8F2225}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F78BD4D-3540-4F27-B741-0044DD8F2225}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F78BD4D-3540-4F27-B741-0044DD8F2225}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F78BD4D-3540-4F27-B741-0044DD8F2225}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0EC22405-D386-4D93-83CF-21F2B733F654} = {DA3F0A3F-5DF0-461B-BC01-8CC01E3F503A}
+		{5F78BD4D-3540-4F27-B741-0044DD8F2225} = {DA3F0A3F-5DF0-461B-BC01-8CC01E3F503A}
+	EndGlobalSection
+EndGlobal
